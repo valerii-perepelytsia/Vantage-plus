@@ -6,3 +6,20 @@ $color-4: rgba(255, 255, 255, 0.75);
 $color-5: #EBEBEB;
 $color-6: #3D3D3D;
 $color-7: #000000;
+//Extends
+%header-ul {
+  display: flex;
+  flex: {
+    wrap: nowrap;
+  }
+  gap: 37px;
+}
+
+%header-button {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2.975px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
