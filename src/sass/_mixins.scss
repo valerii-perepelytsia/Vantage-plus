@@ -1,21 +1,15 @@
-@mixin setFontSans ($_weight: 400, $_size: 11px, $_line-height: 17px, $_color: #FFFFFF) {
+@mixin setFontSans ($_weight: 400) {
   font: {
     family: 'Open Sans', sans-serif;
     style: normal;
-    weight: 400;
-    size: $_size;
+    weight: $_weight;
   }
-  line-height: $_line-height;
-  color: $_color;
 }
 
-@mixin setFontTeko ($_weight: 400, $_size: 11px, $_line-height: 17px, $_color: #FFFFFF) {
+@mixin setFontTeko ($_weight: 400) {
   font: {
     family: 'Teko', sans-serif;
     style: normal;
-    weight: 400;
-    size: $_size;
+    weight: $_weight;
   }
-  line-height: $_line-height;
-  color: $_color;
 }
